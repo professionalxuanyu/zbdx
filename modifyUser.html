@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>无标题文档</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".click").click(function() {
+					$(".tip").fadeIn(200);
+				});
+
+				$(".tiptop a").click(function() {
+					$(".tip").fadeOut(200);
+				});
+
+				$(".sure").click(function() {
+					$(".tip").fadeOut(100);
+				});
+
+				$(".cancel").click(function() {
+					$(".tip").fadeOut(100);
+				});
+
+			});
+		</script>
+
+	</head>
+
+	<body>
+
+		<div class="place">
+			<span>位置：</span>
+			<ul class="placeul">
+				<li>
+					<a href="#">首页</a>
+				</li>
+				<li>
+					<a href="#">修改用户</a>
+				</li>
+				<li></li>
+			</ul>
+		</div>
+
+		<div class="rightinfo">
+
+			<table class="tablelist">
+				<thead>
+					<tr>
+						<th><input name="" type="checkbox" value="" checked="checked" /></th>
+						<th>用户名<i class="sort"><img src="images/px.gif" /></i></th>
+						<th>真实姓名</th>
+						<th>角色</th>
+						<th>校内职务</th>
+						<th>手机</th>
+						<th>QQ</th>
+						<th>备注</th>
+						<th>操作</th>
+
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><input name="" type="checkbox" value="" /></td>
+						<td>迷失之牙</td>
+						<td>王建春</td>
+						<td>管理员</td>
+						<td>群众</td>
+						<td>12345678910</td>
+						<td>3371569840</td>
+						<td>无</td>
+						<td>
+							<a href="#" class="tablelink">修改</a>
+						</td>
+
+					</tr>
+
+					<tr>
+						<td><input name="" type="checkbox" value="" /></td>
+						<td>远古恐惧</td>
+						<td>王伟</td>
+						<td>管理员</td>
+						<td>校学生会副主席</td>
+						<td>12345678911</td>
+						<td>2689745613</td>
+						<td>无</td>
+						<td>
+							<a href="#" class="tablelink">修改</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td><input name="" type="checkbox" value="" /></td>
+						<td>封魔剑魂</td>
+						<td>徐秀</td>
+						<td>管理员</td>
+						<td>群众</td>
+						<td>12345678912</td>
+						<td>2392577840</td>
+						<td>无</td>
+						<td>
+							<a href="#" class="tablelink">修改</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td><input name="" type="checkbox" value="" /></td>
+						<td>残月之肃</td>
+						<td>祖力皮卡尔</td>
+						<td>管理员</td>
+						<td>校学生会卫生部部长</td>
+						<td>12345678913</td>
+						<td>1371565849</td>
+						<td>新疆籍</td>
+						<td>
+							<a href="#" class="tablelink">修改</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td><input name="" type="checkbox" value="" /></td>
+						<td>血港鬼影</td>
+						<td>姬明月</td>
+						<td>管理员</td>
+						<td>群众</td>
+						<td>12345678914</td>
+						<td>1311766880</td>
+						<td>无</td>
+						<td>
+							<a href="#" class="tablelink">修改</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td><input name="" type="checkbox" value="" /></td>
+						<td>山隐之焰</td>
+						<td>任鑫</td>
+						<td>管理员</td>
+						<td>群众</td>
+						<td>12345678915</td>
+						<td>3574539241</td>
+						<td>无</td>
+						<td>
+							<a href="#" class="tablelink">修改</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td><input name="" type="checkbox" value="" /></td>
+						<td>星界游神</td>
+						<td>马晓晴</td>
+						<td>管理员</td>
+						<td>群众</td>
+						<td>12345678916</td>
+						<td>2381664850</td>
+						<td>无</td>
+						<td>
+							<a href="#" class="tablelink">修改</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td><input name="" type="checkbox" value="" /></td>
+						<td>圣枪游侠</td>
+						<td>卢锡安</td>
+						<td>管理员</td>
+						<td>群众</td>
+						<td>12345678917</td>
+						<td>3572579148</td>
+						<td>无</td>
+						<td>
+							<a href="#" class="tablelink">修改</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td><input name="" type="checkbox" value="" /></td>
+						<td>唤潮鲛姬</td>
+						<td>秦靖宁</td>
+						<td>管理员</td>
+						<td>群众</td>
+						<td>12345678918</td>
+						<td>4371268860</td>
+						<td>无</td>
+						<td>
+							<a href="#" class="tablelink">修改</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<div class="pagin">
+				<div class="message">共<i class="blue">1256</i>条记录，当前显示第&nbsp;<i class="blue">2&nbsp;</i>页</div>
+				<ul class="paginList">
+					<li class="paginItem">
+						<a href="javascript:;"><span class="pagepre"></span></a>
+					</li>
+					<li class="paginItem">
+						<a href="javascript:;">1</a>
+					</li>
+					<li class="paginItem current">
+						<a href="javascript:;">2</a>
+					</li>
+					<li class="paginItem">
+						<a href="javascript:;">3</a>
+					</li>
+					<li class="paginItem">
+						<a href="javascript:;">4</a>
+					</li>
+					<li class="paginItem">
+						<a href="javascript:;">5</a>
+					</li>
+					<li class="paginItem more">
+						<a href="javascript:;">...</a>
+					</li>
+					<li class="paginItem">
+						<a href="javascript:;">10</a>
+					</li>
+					<li class="paginItem">
+						<a href="javascript:;"><span class="pagenxt"></span></a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="tip">
+				<div class="tiptop"><span>提示信息</span>
+					<a></a>
+				</div>
+
+				<div class="tipinfo">
+					<span><img src="images/ticon.png" /></span>
+					<div class="tipright">
+						<p>是否确认对信息的修改 ？</p>
+						<cite>如果是请点击确定按钮 ，否则请点取消。</cite>
+					</div>
+				</div>
+
+				<div class="tipbtn">
+					<input name="" type="button" class="sure" value="确定" />&nbsp;
+					<input name="" type="button" class="cancel" value="取消" />
+				</div>
+
+			</div>
+
+		</div>
+
+		<script type="text/javascript">
+			$('.tablelist tbody tr:odd').addClass('odd');
+		</script>
+
+	</body>
+
+</html>
